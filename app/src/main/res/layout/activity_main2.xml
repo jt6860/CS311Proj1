@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="164dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/customerOrderID"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:gravity="center"
+                android:labelFor="@id/customerOrderInput"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:text="@string/customer_order_id"
+                android:textColor="#263238"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/customerOrderInput"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#34FFEB3B"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textSize="12sp"
+                tools:ignore="VisualLintTextFieldSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/orderName"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:gravity="center"
+                android:labelFor="@id/orderNameInput"
+                android:paddingLeft="30dp"
+                android:paddingTop="5dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:text="@string/order_name"
+                android:textColor="#263238"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/orderNameInput"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#34FFEB3B"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="5dp"
+                android:textSize="12sp"
+                tools:ignore="VisualLintTextFieldSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/orderQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:gravity="center"
+                android:labelFor="@id/orderQuantityInput"
+                android:paddingLeft="25dp"
+                android:paddingTop="5dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:text="@string/order_quantity"
+                android:textColor="#263238"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/orderQuantityInput"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#34FFEB3B"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textSize="12sp"
+                tools:ignore="VisualLintTextFieldSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/orderFulfilledBy"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:gravity="center"
+                android:labelFor="@id/orderFulfilledByInput"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:singleLine="true"
+                android:text="@string/order_fulfilled_by"
+                android:textColor="#263238"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/orderFulfilledByInput"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:background="#34FFEB3B"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textSize="12sp"
+                tools:ignore="VisualLintTextFieldSize" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CS311_U2_JohnTorres</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="submit">Submit</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_id">Customer ID (1–999)</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="_1">1</string>
+    <string name="customer_order_id">Customer Order ID</string>
+    <string name="order_name">Order Name</string>
+    <string name="order_quantity">Order Quantity</string>
+    <string name="order_fulfilled_by">Order Fulfilled By</string>
+</resources>
